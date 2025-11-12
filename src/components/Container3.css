@@ -1,0 +1,109 @@
+.cont-c{
+  border: 2px solid red;
+  width: 1250px;
+  height: 320px;
+  /* justify-content: space-between; */
+  /* display: flex; */
+  /* gap: 25px; */
+}
+.cont-c-img1{
+  /* border: 2px solid black; */
+  /* width: 610px; */
+  height: 320px;
+  background-image: url(C:\Users\dheep\OneDrive\Desktop\demo\react\grabit\src\assets\conimg1.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 7px;
+}
+.cont-c-img2{
+  /* border: 2px solid black; */
+  /* width: 610px; */
+  height: 320px;
+  background-image: url(C:\Users\dheep\OneDrive\Desktop\demo\react\grabit\src\assets\conimg2.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 7px;
+}
+.cont-c-img-t-c{
+  position: absolute;
+  margin-top: 60px;
+  margin-left: 370px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.cont-c-img1{
+  text-align: start;
+}
+.cont-c-img1-t{
+  font-size: 35px;
+  font-weight: bold;
+  color: #4B5966;
+  line-height: 40px;
+
+}
+.cont-c-img1-t2{
+  font-size: 16px;
+  color: #7C7C7C;
+}
+.cont-c-img-t-t1{
+  font-size: 35px;
+}
+.cont-c-img1 button{
+  border: 0.5px solid #5CAF90;
+  border-radius: 5px;
+  width: 100px;
+  background-color: #5CAF90;
+  color: white;
+}
+.cont-c-img1 button:hover{
+  background-color: darkslategray;
+  transition: 0.5s;
+}
+.cont-c-img2 button{
+  border: 0.5px solid #5CAF90;
+  border-radius: 5px;
+  width: 100px;
+  background-color: #5CAF90;
+  color: white;
+}
+.cont-c-img2 button:hover{
+  background-color: darkslategray;
+  transition: 0.5s;
+}
+/* .cont-c-img1-off-c{
+  display: flex;
+  justify-content: start;
+} */
+/* .cont-c-img1-off{
+  border: 2px solid green;
+  width: 10px;
+  height: 10px; 
+} */
+.cont-cont{
+  /* border: 2px solid greenyellow; */
+  height: 210px;
+  display: flex;
+  gap: 25px;
+  /* flex-wrap: wrap; */
+}
+.cont-cont-c1{
+  border: 1px solid #4B5966;
+  width: 360px;
+  height: 210px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.cont-cont-c1-ic{
+  color: #5CAF90;
+  font-size: 50px;
+}
+.cont-cont-c1-t1{
+  color: black;
+  font-size: 18px;
+}
+.cont-cont-c1-t2{
+  color: gray;
+}

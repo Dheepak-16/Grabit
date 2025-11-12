@@ -1,0 +1,116 @@
+.c-container{
+    /* border: 2px solid blue; */
+    height: 400px;
+    display: flex;
+    gap: 30px;
+}
+.c-container-cont{
+    /* border: 2px solid orange; */
+    width: 300px;
+    height: 400px;
+}
+.c-container-cont-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background-image: url(C:\Users\dheep\OneDrive\Desktop\demo\react\grabit\src\assets\con4img.png);
+    background-size: cover;
+    background-position: center;
+}
+.img-t1-subt1{
+    font-weight: bold;
+    font-size: 23px;
+}
+.img-ti-subt1-but{
+    width: 100px;
+    height: 35px;
+    background-color: #5CAF90;
+    border: 1px solid #5CAF90;
+    color: white;
+    border-radius: 5px;
+}
+.c-container-cont-img-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 25px;
+    padding-top: 20px;
+    cursor: pointer;
+}
+.c-container-cont1{
+    /* border: 2px solid orchid; */
+}
+.c-container-cont1-sub{
+    /* border: 2px solid brown; */
+    display: flex;
+    gap: 30px;
+}
+.c-container-cont1-sub-sub1{
+    /* border: 2px solid black; */
+    width: 295px;
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+.c-container-cont1-sub-sub1 span{
+    cursor: pointer;
+}
+.c-container-cont1-sub-sub1 span:hover{
+    color: #5CAF90;
+    transition: 0.5s;
+}
+.hed1{
+    font-size: 20px;
+    font-weight: bold;
+}
+.c-container-cont2{
+    /* border: 2px solid lawngreen; */
+    width: 950px;
+    height: 0px;
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+    gap: 20px;
+    margin-top: 18px;
+}
+.c-container-cont2-sub-sub1{
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    width: 298px;
+    height: 100px;
+    display: flex;
+    gap: 5px;
+}
+.c-container-cont2-head{
+    /* border: 2px solid yellow; */
+    width: 930px;
+    height: 30px;
+}
+.c-container-cont2-sub-sub1-sub1{
+    /* border: 2px solid purple; */
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.c-container-cont2-sub-sub1-sub2{
+    /* border: 2px solid rgb(0, 0, 0); */
+    width: 290px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+    gap: 5px;
+    cursor: pointer;
+}
+.s1{
+    color: black
+}
+.s2{
+    color: #9A9A9A;
+}
+.c-container-cont2-sub-sub1-sub1 img{
+    width: 80px;
+    height: 80px;
+    margin-top: 5px;
+}

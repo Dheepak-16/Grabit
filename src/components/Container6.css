@@ -1,0 +1,121 @@
+.cont-about{
+    /* border: 2px solid red; */
+    height: 350px;
+    display: flex;
+    gap: 20px;
+}
+.cont-about1-box1{
+    /* border: 2px solid yellow; */
+    width: 300px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.box1-cont1-img{
+    /* border: 2px solid orange; */
+    height: 60px;
+    overflow: hidden;
+    display: flex;
+}
+.box1-cont1-img img{
+    width: 45%;
+    height: 70%;
+}
+.cont-about1-box2{
+    color:  #777777
+}
+.cont-about1-box3{
+    border: 2px;
+    border-radius: 5px;
+    width: 150px;
+    height: 45px;
+    cursor: pointer;
+}
+.cont-about1-box3 img{
+    border-radius: 5px;
+    height: 42px;
+}
+.cont-about1-box3-box{
+    display: flex;
+    gap: 15px;
+}
+.cont-about2{
+    /* border: 2px solid lawngreen; */
+    width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    display: flex;
+    gap: 15px;
+}
+.cont-about2-b1{
+    /* border: 2px solid tomato; */
+    height: 350px;
+    width: 180px;
+}
+.cont-about2-b1 hr{
+    color: grey;
+}
+.cont-about2-b1 ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: start;
+    justify-items: start;
+
+}
+.cont-about2-b1 ul li{
+    text-align: start;    
+}
+.cont-about2-b1 span{
+    font-size: 20px;
+}
+.cont-about2-b1 p{
+    color: #777777;
+    cursor: pointer;
+}
+.cont-about2-b1 p:hover{
+    color: #5CAF90;
+}
+.cont-about2-b2{
+    /* border: 2px solid red; */
+    width: 310px;
+    display: flex;
+    flex-direction: column;
+}
+.cont-about2-b2 span{
+    font-size: 20px;
+}
+.cont-about2-b2-t1{
+    font-size: 23px;
+    color: #5CAF90;
+    display: flex;
+    gap: 10px;
+    padding-bottom: 25px;
+}
+.loc{
+    color: #777777;
+    font-size: 14px;
+}
+.con-num{
+    color: #777777;
+    font-size: 14px;
+    cursor: pointer;
+}
+.con-num:hover{
+    color: #5CAF90;
+}
+.em{
+    color: #777777;
+    font-size: 14px;
+    cursor: pointer;
+}
+.em:hover{
+    color: #5CAF90;
+}
+.c-icons{
+    font-size: 30px;
+    color: #4B5966;
+    cursor: pointer;
+}

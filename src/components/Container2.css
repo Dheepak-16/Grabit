@@ -1,0 +1,72 @@
+.b-img-b{
+  /* border: 2px solid red; */
+  width: 1250px;
+  height: 400px;  
+  border-radius: 5px;
+  background-size: cover;
+  background-position: center;
+  background-image: url(C:\Users\dheep\OneDrive\Desktop\demo\react\grabit\src\assets\bimg1.png)
+}
+.filler2{
+  /* border: 2px solid red; */
+  width: 1250px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.deal2{
+  color: #5CAF90;
+}
+.filler2-t1{
+  font-size: 22px;
+}
+.filler2-t2{
+  font-size: 15px;
+}
+.con-r ul{
+  display: flex;
+  gap: 30px;
+  list-style-type: none;
+
+}
+.con-r{
+  /* border: 2px solid rgb(6, 5, 5); */
+  width: 700px; 
+}
+.filler1-t1{
+  font-size: 45px;
+  color: #4B5966;
+}
+.filler1-t2{
+  text-align: end;
+}
+.filler1-t2-sub1{
+  font-size: 30px;
+  color: #5CAF90;
+}
+.filler1-t2-sub2{
+  font-size: 20px;
+  color: #777777;
+}
+.b-img-b-text-but{
+  text-align: end;
+}
+.filler1-but{
+  width: 95px;
+  height: 35px;
+  border: 2px solid #5CAF90;
+  background-color: #5CAF90;
+  border-radius: 5px;
+  color: white;
+}
+.b-img-b-t{
+  display: flex;
+  flex-direction: row-reverse;
+}
+.b-img-b-text{
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+  margin-right: 80px;
+}

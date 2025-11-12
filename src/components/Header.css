@@ -1,0 +1,241 @@
+
+.cont1{
+  /* border: 2px solid burlywood; */
+  width: 1250px;
+  height: 70px;
+  display: flex;
+  gap: 35px;
+}
+.cont1-b1{
+  /* border: 2px solid green; */
+  width: 200px;
+  height: 70px;
+}
+.cont1-b2 {
+  width: 820px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+
+.search-container {
+  position: relative;
+  width: 100%;
+}
+
+.search-box {
+  width: 100%;
+  height: 50px;
+  border: 1px solid #e3e3e3;
+  border-radius: 5px;
+  padding: 0px 45px 0px 20px;
+}
+
+.search-box::placeholder {
+  color: #6b7280;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+}
+
+.search-icon {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #6b7280;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.cont1-b3{
+  /* border: 2px solid yellow; */
+  width: 400px;
+  height: 70px;
+  display: flex;
+  cursor: pointer;
+}
+.sub-cont1-b3{
+  /* border: 2px solid rgb(80, 239, 242); */
+  width: 150px;
+  height: 70px;
+  display: flex;
+}
+.sub-b3{
+  /* border: 2px solid red; */
+  width: 40px;
+  height: 70px;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sub-sub-b3{
+  /* border: 2px solid black;   */
+  padding-top: 10px;
+  width: 100px;
+  height: 70px;
+  margin-left: 5px;
+}
+.sub-b3:hover{
+  color: #5CAF90;
+  transition: 0.5s;
+}
+.t1:hover{
+  color: #5CAF90;
+  transition: 0.5s;
+}
+.t1{
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+.t2{
+  font-size: 13px;
+}
+.cont2{
+  /* border: 2px solid red; */
+  width: 1250px;
+  height: 60px;
+  display: flex;
+}
+.cont2-b1{
+  /* border: 2px solid skyblue; */
+  width: 200px;
+  height: 60px;
+  /* text-align: center; */
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  padding-left: 10px;
+  gap: 10px;
+  font-size: 18px;
+  color: white;
+  background-color: #5CAF90;
+  border-radius: 5px;
+}
+.cont2-b1-text{
+  cursor: pointer;
+}
+.cont2-b2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid skyblue; */
+  width: 840px;
+  height: 60px;
+}
+.down{
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+  padding-right: 15px;
+}
+nav{
+  display: flex;
+  gap: 40px;
+}
+nav li{
+  list-style-type: none;
+
+}
+nav li a{
+  text-decoration: none;
+  color: rgb(52, 51, 51);
+  font-size: 19px;
+  text-align: center;
+  /* padding-bottom: 13px; */
+
+}
+.cont2-b2 nav li a:hover{
+  color: #5CAF90;
+  transition: 0.5s;
+}
+.off{
+  font-size: 25px;
+  display: flex;
+  /* text-align: center; */
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  cursor: pointer;
+}
+.off:hover{
+  color: #5CAF90;
+  transition: 0.5s;
+}
+.cont2-b3{
+   /* border: 2px solid skyblue; */
+  width: 200px;
+  height: 60px;
+  /* text-align: center; */
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  padding-left: 10px;
+  gap: 10px;
+  font-size: 18px;
+  color: white;
+  background-color: #5CAF90;
+  border-radius: 5px;
+}
+.cont2-b3-text{
+  cursor: pointer;
+}
+.drop{
+  /* position: absolute;
+  display: flex;
+  flex-direction: column; */
+  /* overflow: hidden; */
+  /* margin-top: 10px; */
+  background-color: whitesmoke; 
+  position: absolute;
+  display: none;
+  z-index: 10;
+  height: max-content;
+  /* margin-top: 5px; */
+}
+.hov:hover .drop{
+  display: block;
+}
+.home-drop li{
+  width: 150px;
+  padding: 10px 10px 10px 20px;
+}
+.home-a{
+  padding-bottom:32px ;
+}
+/* .drop1{
+  display: none;
+}
+.hov:hover .drop1{
+  display: block;
+} */
+.drop1-grid{
+  border: 2px solid red;
+  width: 850px;
+  position: absolute;
+  margin-left: -230px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 7px;
+  margin-top: 20px;
+  background-color: #FFFFFF;
+  z-index: 10;
+}
+.drop1-b1{
+  border: 2px solid black;
+  width: 207px;
+  height: 250px;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  line-height: 25px;
+  padding-top: 10px;
+  gap: 2px;
+  padding-left: 10px;
+}
+.categories-a{
+  display: flex;
+  flex-direction: column;
+}
+

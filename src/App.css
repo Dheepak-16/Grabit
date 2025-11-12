@@ -1,0 +1,13 @@
+.App{
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  padding-top: 20px;
+}
+.cont{
+  /* border: 2px solid black;   */
+  width: 1250px;
+  padding-bottom: 10px;
+  flex-wrap: wrap;
+}
+
