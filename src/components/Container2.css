@@ -5,7 +5,8 @@
   border-radius: 5px;
   background-size: cover;
   background-position: center;
-  background-image: url(C:\Users\dheep\OneDrive\Desktop\demo\react\grabit\src\assets\bimg1.png)
+  background-image: url("../assets/bimg1.png");
+
 }
 .filler2{
   /* border: 2px solid red; */
