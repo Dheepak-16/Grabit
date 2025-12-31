@@ -63,3 +63,73 @@
     
     background-color: #5CAF90;
 }
+
+@media (max-width: 1024px) {
+
+  .carousel-cont {
+    width: 100%;
+    margin-left: 0;
+    height: auto;
+  }
+
+  .carousel-cont-content {
+    gap: 20px;
+  }
+
+  .carousel-cont-t2 {
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  #shop {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .carousel-cont {
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+
+  .carousel-cont-content {
+    align-items: center;
+    text-align: center;
+  }
+
+  .carousel-cont-t1 {
+    font-size: 18px;
+  }
+
+  .carousel-cont-t2 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  #shop {
+    width: 160px;
+    height: 38px;
+    font-size: 16px;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .carousel-cont-t1 {
+    font-size: 16px;
+  }
+
+  .carousel-cont-t2 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  #shop {
+    width: 140px;
+    height: 36px;
+    font-size: 15px;
+  }
+}

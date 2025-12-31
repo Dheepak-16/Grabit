@@ -82,3 +82,82 @@
     color: #5CAF90;
     transition: 0.5s;
 }
+
+@media (max-width: 1024px) {
+
+  .cont-blog {
+    flex-direction: column;
+    gap: 10px;
+    height: auto;
+  }
+
+  .all_blogs {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .n-cont {
+    grid-template-columns: repeat(3, 1fr);
+    height: auto;
+    justify-items: center;
+  }
+
+  .n-cont-content {
+    width: 100%;
+    max-width: 260px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .cont-blog {
+    text-align: center;
+    align-items: center;
+  }
+
+  .all_blogs {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .blog-t3 {
+    padding-right: 0;
+  }
+
+  .n-cont {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+
+  .n-cont-content {
+    width: 100%;
+    max-width: 280px;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .blog-t1 {
+    font-size: 20px;
+  }
+
+  .blog-t2 {
+    font-size: 14px;
+  }
+
+  .n-cont {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .n-cont-content {
+    max-width: 100%;
+  }
+
+  .n-cont-content-text2 {
+    font-size: 16px;
+  }
+
+  .n-cont-content-text3 {
+    font-size: 13px;
+  }
+}
